@@ -58,7 +58,8 @@ public class AnnotationTester {
         return getMethodAnnotationSpecs()
                 .map(AnnotationSpec::name)
                 .distinct()
-                .map(m -> new MethodAnnotationsSpec(clazz, m, getMethodSpecs(m))).toList();
+                .map(m -> new MethodAnnotationsSpec(clazz, m, getMethodSpecs(m)))
+                .toList();
     }
 
     private List<AnnotationSpec<?>> getMethodSpecs(String methodName) {
