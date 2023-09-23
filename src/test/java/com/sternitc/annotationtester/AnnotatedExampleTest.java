@@ -1,8 +1,8 @@
 package com.sternitc.annotationtester;
 
+import com.sternitc.annotationtester.example.*;
 import org.junit.jupiter.api.Test;
 
-import java.lang.annotation.Annotation;
 import java.lang.annotation.ElementType;
 import java.util.ArrayList;
 import java.util.List;

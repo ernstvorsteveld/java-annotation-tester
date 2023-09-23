@@ -1,4 +1,4 @@
-package com.sternitc.annotationtester;
+package com.sternitc.annotationtester.example;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.ElementType;

@@ -1,4 +1,4 @@
-package com.sternitc.annotationtester;
+package com.sternitc.annotationtester.example;
 
 @TypeAnnotation(key = "class")
 @TypeAnnotation2(key = "class2")
