@@ -19,7 +19,6 @@ class AnnotatedExampleTest {
         assertThat(annotationTester.validMethodAnnotations()).isTrue();
         assertThat(annotationTester.hasTypeAnnotationCount()).isTrue();
         assertThat(annotationTester.hasMethodAnnotationCount()).isTrue();
-
     }
 
     AnnotationsSpec getTests() {
