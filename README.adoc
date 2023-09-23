@@ -1,0 +1,9 @@
+= Annotation validator
+
+This project validates the existence of Type and Method annotations.
+
+
+== To Do
+
+* Multiple annotations validation
+* Attribute annotations validation
